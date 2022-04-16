@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.bg-image {
+  background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.719),
+      rgba(0, 0, 0, 0.719)
+    ),
+    url("./../images/background.jpg"), no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  margin: 20px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1350px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.section {
+  margin-top: 40px;
+}
+.box {
+  height: 300px;
+  width: 30%;
+  background: coral;
+  border-radius: 12px;
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+.box-1 {
+  background-color: #f64647;
+}
+.box-2 {
+  background-image: linear-gradient(
+    to right,
+    rgb(73, 39, 38),
+    rgb(155, 42, 54),
+    rgb(246, 69, 71) 70%
+  );
+}
+.box-3 {
+  background-image: radial-gradient(
+    rgb(246, 69, 71) 20%,
+    rgb(134, 36, 49),
+    #65252b
+  );
+}
+.section {
+  margin-top: 20px;
+}
+.box-4 {
+  margin: 100px auto;
+  height: 600px;
+  width: 70%;
+  border-radius: 15px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 0, 0, 0.5)
+    ),
+    url("./../images/boximage.jpeg"), no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
