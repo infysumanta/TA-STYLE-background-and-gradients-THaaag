@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(32, 34, 47);
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 20px auto;
+  padding: 0 32px;
+}
+.header {
+  font-weight: 700;
+  height: 100px;
+}
+h1 {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-subtext,
+.toogle-level {
+  font-size: 16px;
+  font-weight: 700px;
+  color: rgb(95, 102, 135);
+}
+
+.toogle-button {
+  z-index: 1;
+  width: 56px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: rgb(76, 202, 156);
+  background: linear-gradient(
+    90deg,
+    hsl(210, 78%, 56%) 0%,
+    hsl(146, 68%, 55%) 100%
+  );
+  display: inline-block;
+  margin: 10px;
+}
+.toogle-button::after {
+  content: "";
+  width: 20px;
+  height: 18px;
+  background-color: rgb(36, 42, 68);
+  border-radius: 50%;
+  display: block;
+  margin: 2px;
+}
+
+/* main-content */
+
+.section-1 {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+/* box-border top */
+
+.top-border {
+  width: 270px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 5px;
+  background-color: #178ff5;
+}
+/* user account details */
+
+.social-media {
+  margin-top: 20px;
+  align-items: center;
+  background: #252b43;
+  width: 270px;
+  height: 200px;
+  border-radius: 5px;
+}
+.user {
+  margin: 15px;
+  color: #8f98b9;
+  font-size: 12px;
+  font-weight: 700;
+}
+.number {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.follower {
+  text-transform: uppercase;
+  color: #545b77;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-family: "Secular One", sans-serif;
+}
+
+.head,
+.social-media .user-deta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-deta {
+  flex-direction: column;
+}
+/* up arrow */
+
+.arrow {
+  border: solid rgb(65, 154, 140);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+p {
+  font-size: 12px;
+  color: rgb(65, 154, 140);
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bolder;
+  font-family: "Secular One", sans-serif;
+}
+
+.foot {
+  padding: 80px;
+}
+
+/* social-linl details */
+
+.fa {
+  font-size: 25px;
+  color: #168ff5;
+}
+
+.fa-youtube-play {
+  color: #20222f;
+  font-size: 15px;
+}
+/* instagram */
+
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-linear-gradient(45deg, #fbbf69, #e35594);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.instagram .top-border {
+  background: linear-gradient(to right, #f8b56b, #e35594);
+}
+
+/* youtube */
+.youtube .top-border {
+  background-color: #b3302f;
+}
+/* youtube background circle */
+.youtube b {
+  background-color: red;
+  border-radius: 50%;
+  border: 3px solid red;
+}
+.bottom p {
+  color: red;
+}
+/* down-arrow */
+
+.bottom {
+  font-size: 12px;
+  color: red;
+  display: inline-block;
+  font-weight: bolder;
+  font-family: "Secular One", sans-serif;
+}
+/* arrow-down */
+.arrow-down {
+  border: solid red;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 2px;
+}
+
+/* section-2 */
+
+h2 {
+  color: white;
+  margin: 30px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.about-info {
+  background: #252b43;
+  width: 250px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.head-icon,
+.flex-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-end {
+  align-content: flex-end;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+}
